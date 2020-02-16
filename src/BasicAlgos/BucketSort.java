@@ -22,12 +22,12 @@ public class BucketSort {
             max = Math.max(max, num);
             min = Math.min(min, num);
         }
-        // 极差是数组大小的多少倍
-        int bucketSize = (max - min) / nums.length + 1;
+        // 极差是数组大小的多少倍就有多少个桶
+        int bucketNum = (max - min) / nums.length + 1;
 
-        List<List<Integer>> bucket = new ArrayList<>(bucketSize);
+        List<List<Integer>> bucket = new ArrayList<>(bucketNum);
         // 初始化桶
-        for (int i = 0; i < bucketSize; i++){
+        for (int i = 0; i < bucketNum; i++){
             bucket.add(new ArrayList<Integer>());
         }
 
