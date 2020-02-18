@@ -27,7 +27,7 @@ public class RadixSort {
     }
 
     int getDigit(int num, int digit) {
-        return (num / (int) Math.pow(10, digit)) % ((int) Math.pow(10, digit));
+        return (num / (int) Math.pow(10, digit - 1)) % 10;
     }
 
     void sort(int[] nums) {
@@ -38,7 +38,7 @@ public class RadixSort {
         int maxLength = getMaxLength(nums);
 
         List<Integer>[] counter = new List[10];
-        for (int i = 1; i < maxLength + 1; i++) {
+        for (int i = 1; i <= maxLength; i++) {
             for (int num : nums) {
                 int digit = getDigit(num, i);
                 if (counter[digit] == null) {
@@ -51,11 +51,12 @@ public class RadixSort {
             }
             int j = 0;
             for (List<Integer> arr: counter) {
-                if (arr != null)
+                if (arr != null) {
                     for (int n = 0; n < arr.size(); n++) {
-                        nums[j] = n;
-                        arr.remove(n);
+                        nums[j++] = arr.get(n);
                     }
+                    arr.clear();
+                }
             }
         }
     }
