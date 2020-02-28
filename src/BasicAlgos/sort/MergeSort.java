@@ -13,13 +13,12 @@ public class MergeSort {
         int p1 = left, p2 = mid + 1, k = left;
 
         while (p1 <= mid && p2 <= right) {
-            if (arr[p1] <= arr[p2]) {
-                swap[k++] = arr[p1++];
-            } else {
+            if (arr[p1] > arr[p2]) {
                 swap[k++] = arr[p2++];
+            } else {
+                swap[k++] = arr[p1++];
             }
         }
-
         while (p1 <= mid) swap[k++] = arr[p1++];
         while (p2 <= right) swap[k++] = arr[p2++];
 
