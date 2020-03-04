@@ -24,7 +24,7 @@ class Solution {
                 for (int k = 0; k < 4; k++) {
                     int x = x0 + dx[k];
                     int y = y0 + dy[k];
-                    if (0 <= x && grid[0].length > x && 0 <= y && grid[1].length > y) {
+                    if (0 <= x && grid.length > x && 0 <= y && grid[0].length > y) {
                         grid[x][y] = grid[x][y] == 1 ? 2 : 0;
                         if (grid[x][y] == 2) newArr.add(new int[]{x, y});
                     }
