@@ -34,6 +34,16 @@ public class Solution {
         return head;
     }
 
+    public void deleteNode(ListNode node) {
+        ListNode cur = node, prev = null;
+        while(cur.val == node.val) {
+            prev = cur;
+            cur = cur.next;
+        }
+        prev.next = cur.next;
+        cur.next = null;
+    }
+
     public static void main(String[] args) {
         ListNode head = new ListNode(0);
         ListNode next = head;
