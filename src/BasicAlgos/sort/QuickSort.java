@@ -5,24 +5,21 @@ import java.util.Arrays;
 public class QuickSort {
 
     int getPivot (int[] arr, int left, int right) {
-        int i = left, j = right;
         int mid = (left + right) / 2;
-        int p = arr[mid];
-        while (i < j) {
-            while (i < j && arr[j] >= p) j--;
-            if (i < j ) {
-                arr[i] = arr[j];
-                i++;
-            }
+        int l = left, r = right, m = arr[mid];
+        while (l != r) {
+            while (l < r && arr[l] <= m) l++;
+            while (l < r && arr[r] > m) r--;
 
-            while (i < j && arr[i] < p) i++;
-            if (i < j) {
-                arr[j] = arr[i];
-                j--;
+            if (l < r) {
+                int t = arr[r];
+                arr[r] = arr[l];
+                arr[l] = t;
             }
         }
-        arr[i] = p;
-        return i;
+        arr[mid] = arr[l];
+        arr[l] = m;
+        return l;
     }
 
 
@@ -33,7 +30,7 @@ public class QuickSort {
         // seem like merge sort
         if (left < right) {
             int pivot = getPivot(arr, left, right);
-            quickSort(arr, left, pivot - 1);
+            quickSort(arr, left, pivot - 1); // pivot not include
             quickSort(arr, pivot + 1, right);
         }
     }

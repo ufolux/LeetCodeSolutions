@@ -22,7 +22,6 @@ public class MergeSort {
 
         while (p1 <= mid) swap[k++] = arr[p1++];
         while (p2 <= right) swap[k++] = arr[p2++];
-
         for (int i = left; i <= right; i++) {
             arr[i] = swap[i];
         }
