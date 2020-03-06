@@ -1,6 +1,5 @@
-package Solutions.String.L89_GrayCode;
+package Solutions.Math.L89_GrayCode;
 
-import java.io.UnsupportedEncodingException;
 import java.util.*;
 
 class Solution {
