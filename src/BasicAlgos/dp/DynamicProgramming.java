@@ -1,5 +1,8 @@
 package BasicAlgos.dp;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * DynamicProgramming
  * <p>
@@ -34,9 +37,28 @@ class Staff {
     }
 }
 
+class Result {
+    int totalValue;
+    int[] soluition;
+
+    Result (int totalValue, int[] solution) {
+        this.totalValue = totalValue;
+        this.soluition = solution;
+    }
+
+    public int getTotalValue() {
+        return totalValue;
+    }
+
+    public int[] getSoluition() {
+        return soluition;
+    }
+}
+
 public class DynamicProgramming {
-    int calMaxValue(Staff[] staffs, int capacity) {
+    Result calMaxValue(Staff[] staffs, int capacity) {
         int[][] dp = new int[staffs.length][capacity + 1];
+        List<Integer> solution = new ArrayList<>();
         for (int i = 0; i < staffs.length; i++) {
             for (int j = 1; j <= capacity; j++) {
                 Staff s = staffs[i];
@@ -51,12 +73,14 @@ public class DynamicProgramming {
                 }
             }
         }
-        return dp[staffs.length - 1][capacity - 1];
+        int totalValue = dp[staffs.length - 1][capacity - 1];
+
+        return new Result(totalValue, new int[]{});
     }
 
     public static void main(String[] args) {
         DynamicProgramming dp = new DynamicProgramming();
-        int res = dp.calMaxValue(new Staff[]{
+        Result res = dp.calMaxValue(new Staff[]{
                 new Staff(1, 1500),
                 new Staff(4, 3000),
                 new Staff(3, 2000),
