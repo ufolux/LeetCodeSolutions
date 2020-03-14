@@ -58,4 +58,10 @@ public class Solution {
 
         return max;
     }
+
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        s.lengthOfLIS1(new int[]{1,2,5,3,4,6,7,5,6,9,29,322,32,424});
+        s.lengthOfLIS2(new int[]{1,2,5,3,4,6,7,5,6,9,29,322,32,424});
+    }
 }
