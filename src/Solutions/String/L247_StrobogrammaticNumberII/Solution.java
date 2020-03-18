@@ -104,7 +104,6 @@ class Solution {
         for (char c = '0'; c < '9' + 1; c++) {
             char symmetricChar = symmetricMap[ c - '0'];
             if (symmetricChar != '*') {
-
                 if (head != rear) {
                     chars[head] = c;
                     chars[rear] = symmetricChar;
