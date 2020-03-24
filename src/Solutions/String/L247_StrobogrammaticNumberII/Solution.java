@@ -10,7 +10,7 @@ class Solution {
      */
     public List<String> find (int n) {
         if (n == 1) {
-            var list = new ArrayList<String>();
+            List<String> list = new ArrayList<String>();
             list.add("0");
             list.add("1");
             list.add("8");
@@ -18,7 +18,7 @@ class Solution {
         }
 
         if (n == 2) {
-            var list = new ArrayList<String>();
+            List<String> list = new ArrayList<String>();
             list.add("00");
             list.add("11");
             list.add("88");
@@ -27,8 +27,8 @@ class Solution {
             return list;
         }
 
-        var sub = find(n - 2);
-        var res = new ArrayList<String>();
+        List<String> sub = find(n - 2);
+        List<String> res = new ArrayList<String>();
 
         for (String s: sub) {
             StringBuilder sb = new StringBuilder();
@@ -48,7 +48,7 @@ class Solution {
 
     public List<String> findStrobogrammatic1(int n) {
         if (n == 1) {
-            var list = new ArrayList<String>();
+            List<String> list = new ArrayList<String>();
             list.add("0");
             list.add("1");
             list.add("8");
@@ -56,7 +56,7 @@ class Solution {
         }
 
         if (n == 2) {
-            var list = new ArrayList<String>();
+            List<String> list = new ArrayList<String>();
             list.add("00");
             list.add("11");
             list.add("88");
@@ -66,7 +66,7 @@ class Solution {
         }
         List<String> res = new ArrayList<>();
         if (n == 0) return res;
-        var sub = find(n-2);
+        List<String> sub = find(n-2);
         for (String s: sub) {
             StringBuilder sb = new StringBuilder();
             res.add(sb.append("1").append(s).append("1").toString());
@@ -120,7 +120,7 @@ class Solution {
 
     public static void main(String[] args) {
         Solution s = new Solution();
-        var list = s.findStrobogrammatic1(10);
+        List<String> list = s.findStrobogrammatic1(10);
         System.out.println(Arrays.toString(list.toArray()));
 
         list = s.findStrobogrammatic2(10);
