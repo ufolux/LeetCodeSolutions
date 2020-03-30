@@ -26,7 +26,7 @@ public class QuickSort {
     void quickSort(int[] arr, int left, int right) {
         // find the pivot
         // left recursive
-        // left recursive
+        // right recursive
         // seem like merge sort
         if (left < right) {
             int pivot = getPivot(arr, left, right);

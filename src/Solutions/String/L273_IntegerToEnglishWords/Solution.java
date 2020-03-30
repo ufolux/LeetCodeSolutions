@@ -1,66 +1,70 @@
 package Solutions.String.L273_IntegerToEnglishWords;
 
-class Solution {
-    public String numberToWords(int num) {
-        int[] values = {
-                1000000000, 1000000,
-                1000, 100, 10, 1
-        };
-        String[] names = {
-                "Billion", "Million", "Thousand", "Hundred", "TenDigit", ""
-        };
+import java.util.Spliterator;
 
-        String[] tens = {
-                "", "", "", "", "", "", "", "", "", "",
-                "Ten", "Eleven", "Twelve", "Thirteen",
-                "Fourteen", "Fifteen", "Sixteen", "Seventeen",
-                "Eighteen", "Nineteen"
-        };
+public class Solution {
+    String[] tenNumbers = {
+            "", "", "Twenty", "Thirty", "Forty",
+            "Fifty", "Sixty", "Seventy", "Eighty", "Ninety"
+    };
 
-        String[] tenNumbers = {
-                "", "", "Twenty", "Thirty", "Forty",
-                "Fifty", "Sixty", "Seventy", "Eighty", "Ninety"
-        };
+    String[] numbers = {
+            "", "One", "Two", "Three", "Four",
+            "Five", "Six", "Seven", "Eight", "Nine",
+            "Ten", "Eleven", "Twelve", "Thirteen",
+            "Fourteen", "Fifteen", "Sixteen", "Seventeen",
+            "Eighteen", "Nineteen"
+    };
 
-        String[] numbers = {
-                "", "One", "Two", "Three", "Four",
-                "Five", "Six", "Seven", "Eight", "Nine"
-        };
-
+    String getHundred (int num) {
         StringBuilder sb = new StringBuilder();
-        for (int i = 0; i < values.length; i++) {
-            int cnt = 0;
-            if (num >= 100) {
-                while (num >= values[i]) {
-                    num -= values[i];
-                    cnt++;
-                }
-                if (cnt > 0) {
-                    sb.append(numbers[cnt]);
-                    sb.append(" ");
-                    sb.append(names[i]);
-                    sb.append(" ");
-                }
-            } else {
-                if (num < 20 && num >= 10) {
-                    sb.append(tens[num]);
-                } else if (num >= 20) {
-                    sb.append(tenNumbers[num / 10]);
-                    sb.append(" ");
-                    sb.append(numbers[num % 10]);
-                } else {
-                    sb.append(numbers[num]);
-                }
-                num = 0;
-            }
+        int h = num / 100;
+        num -= h * 100;
+        int t = num / 10;
+        t = t > 1 ? t : 0;
+        num -= t * 10;
+        int d = num;
+        if (h > 19) {
+            int twoDigit = h / 10;
+            h -= twoDigit * 10;
+            sb.append(tenNumbers[twoDigit]).append(" Hundred ").append(numbers[h]).append(" ");
+        } else if (h > 0) {
+            sb.append(numbers[h]).append(" Hundred ");
         }
+        if (t > 0) sb.append(tenNumbers[t]).append(" ");
+        if (d > 0) sb.append(numbers[d]).append(" ");
         return sb.toString();
+    }
+
+    public String numberToWords(int num) {
+        if (num == 0) return "Zero";
+        StringBuilder sb = new StringBuilder();
+        // Billion
+        int b = num / 1000000000;
+        num -= b * 1000000000;
+        if(b > 0) sb.append(getHundred(b)).append("Billion ");
+        // Million
+        int m = num / 1000000;
+        num -= m * 1000000;
+        if(m > 0) sb.append(getHundred(m)).append("Million ");
+        // Thousand
+        int t = num / 1000;
+        num -= t * 1000;
+        if(t > 0) sb.append(getHundred(t)).append("Thousand ");
+        // Hundred
+        if (num > 0) sb.append(getHundred(num));
+        return sb.toString().trim();
     }
 
     public static void main(String[] args) {
         Solution s = new Solution();
-        for (int i = 0; i < 20; i++) {
-            System.out.println(s.numberToWords(12345 + i));
-        }
+        s.numberToWords(1234567891);
+        s.numberToWords(1000000000);
+        s.numberToWords(1200000000);
+        s.numberToWords(12000000);
+        s.numberToWords(12000);
+        s.numberToWords(123);
+        s.numberToWords(12);
+        s.numberToWords(1);
     }
 }
