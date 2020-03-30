@@ -2,6 +2,7 @@ package Solutions.Math.L66_PlusOne;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.LinkedList;
 import java.util.List;
 
 class Solution {
@@ -37,8 +38,8 @@ class Solution {
 
             digits[i] = 0;
         }
-
         int[] newDigits = new int[digits.length + 1];
+
         newDigits[0] = 1;
         return newDigits;
     }
