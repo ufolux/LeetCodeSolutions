@@ -8,7 +8,6 @@ public class Solution {
     public List<String> restoreIpAddresses(String s) {
         int len = s.length();
         List<String> res = new ArrayList<>();
-        // base case
         StringBuilder sb = new StringBuilder();
         for  (int a = 1; a < 4; a++) {
             for (int b = 1; b < 4; b++) {
