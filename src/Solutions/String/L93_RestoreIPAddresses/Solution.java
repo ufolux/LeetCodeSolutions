@@ -9,7 +9,6 @@ public class Solution {
         int len = s.length();
         List<String> res = new ArrayList<>();
         // base case
-        if (s == null || len < 4 && len > 12) return res;
         StringBuilder sb = new StringBuilder();
         for  (int a = 1; a < 4; a++) {
             for (int b = 1; b < 4; b++) {
