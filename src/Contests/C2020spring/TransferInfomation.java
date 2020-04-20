@@ -1,4 +1,4 @@
-package Contests;
+package Contests.C2020spring;
 import java.util.*;
 
 public class TransferInfomation {
