@@ -37,6 +37,7 @@ public class GenPermutationSeq {
 
     /**
      * 回溯法
+     * Lexicographical Order
      * @param nums
      * @return
      */
