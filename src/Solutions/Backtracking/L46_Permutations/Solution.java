@@ -1,4 +1,4 @@
-package Solutions.Backtracking;
+package Solutions.Backtracking.L46_Permutations;
 
 import java.util.*;
 

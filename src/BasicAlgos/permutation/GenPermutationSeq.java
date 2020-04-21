@@ -1,7 +1,6 @@
 package BasicAlgos.permutation;
 
 import java.util.*;
-import java.util.stream.Collectors;
 
 public class GenPermutationSeq {
     /**
@@ -18,8 +17,11 @@ public class GenPermutationSeq {
 
     public void genPermute1(List<List<Integer>> res, int[] nums, int start) {
         if (start == nums.length - 1) {
-            List<Integer> l = Arrays.stream(nums).boxed().collect(Collectors.toList());
-            res.add(l);
+            List<Integer> list = new ArrayList<>();
+            for (int i: nums) {
+                list.add(i);
+            }
+            res.add(list);
             return;
         }
         for (int i = start; i < nums.length; i++) {
