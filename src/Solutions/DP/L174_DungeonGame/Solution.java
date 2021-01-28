@@ -5,7 +5,7 @@ public class Solution {
         if (memo[i][j] > 0) {
             return memo[i][j];
         }
-        int res = 0;
+        int res;
         if (i == m - 1 && j == n - 1) {
             res = Math.max(1 - dungeon[i][j], 1);
         } else if (i == m - 1) {
