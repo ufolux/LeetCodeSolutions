@@ -1,6 +1,14 @@
-cmake_minimum_required(VERSION 3.17)
-project(Cpp)
+cmake_minimum_required(VERSION 3.17.0)
+
+project(LeetCodeCpp)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Cpp main.cpp)
+include_directories(./)
+add_subdirectory(Solutions/DP)
+include_directories(Solutions/DP)
+
+
+aux_source_directory(. DIR_SRC)
+add_executable(${PROJECT_NAME} ${DIR_SRC})
+target_link_libraries(${PROJECT_NAME} DP)

@@ -1,6 +1,13 @@
-#include <iostream>
+#include "PublicHeaders.h"
+#include "Solutions/DP/L140_WordBreakII.cpp"
+
+using std::string;
+using std::vector;
+using std::cout;
+using std::endl;
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    L140_WordBreakII::Solution s;
+    s.run();
     return 0;
 }
