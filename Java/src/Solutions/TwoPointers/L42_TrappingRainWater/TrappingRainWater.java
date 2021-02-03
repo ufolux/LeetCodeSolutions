@@ -1,4 +1,4 @@
-package Solutions.Array.L42_TrappingRainWater;
+package Solutions.TwoPointers.L42_TrappingRainWater;
 
 public class TrappingRainWater {
     public static int trap(int[] height) {
