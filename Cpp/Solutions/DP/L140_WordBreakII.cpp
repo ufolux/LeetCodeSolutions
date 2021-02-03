@@ -1,12 +1,13 @@
 //
 // Created by Sines on 2021/2/3.
 //
-#include "../../PublicHeaders.h"
+#include "PublicHeaders.h"
+#include "../BaseSolution.h"
 
 namespace L140_WordBreakII {
     using namespace std;
 
-    class Solution {
+    class Solution: BaseSolution {
     private:
         unordered_set<string> wordSet;
         vector<string> tmp;
