@@ -1,5 +1,5 @@
 #include "PublicHeaders.h"
-#include "Solutions/TwoPointers/L42_TrappingRainWater.cpp"
+#include "Solutions/TwoPointers/L125_ValidPalindrome.cpp"
 
 using std::string;
 using std::vector;
@@ -7,7 +7,7 @@ using std::cout;
 using std::endl;
 
 int main() {
-    L42_TrappingRainWater::Solution s;
+    L125_ValidPalindrome::Solution s;
     s.run();
     return 0;
 }
