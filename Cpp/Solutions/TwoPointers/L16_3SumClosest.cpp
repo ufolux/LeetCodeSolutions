@@ -16,7 +16,6 @@ namespace L16_3SumClosest {
             for (int i = 0; i < len; ++i) {
                 int l = i + 1;
                 int r = len - 1;
-                int t = target - nums[i];
                 while (l < r) {
                     int sum = nums[l] + nums[r] + nums[i];
                     int diff = sum - target;
