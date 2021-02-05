@@ -3,8 +3,8 @@
 //
 #include "PublicHeaders.h"
 #include <Solutions/BaseSolution.h>
-
-namespace L855_ExamRoom {
+namespace TwoPointers {
+    namespace L855_ExamRoom {
     using namespace std;
     class ExamRoom {
     private:
@@ -36,3 +36,4 @@ namespace L855_ExamRoom {
         }
     };
 };
+}

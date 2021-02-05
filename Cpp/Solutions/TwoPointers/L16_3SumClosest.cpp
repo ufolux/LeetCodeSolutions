@@ -4,7 +4,8 @@
 #include "PublicHeaders.h"
 #include <Solutions/BaseSolution.h>
 
-namespace L16_3SumClosest {
+namespace TwoPointers {
+    namespace L16_3SumClosest {
     using namespace std;
     class Solution : BaseSolution {
     public:
@@ -41,3 +42,4 @@ namespace L16_3SumClosest {
         }
     };
 };
+}

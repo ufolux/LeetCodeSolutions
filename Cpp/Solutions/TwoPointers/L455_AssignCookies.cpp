@@ -4,8 +4,8 @@
 
 #include <Solutions/BaseSolution.h>
 #include "PublicHeaders.h"
-
-namespace L455_AssignCookies {
+namespace TwoPointers {
+    namespace L455_AssignCookies {
     using namespace std;
     class Solution: BaseSolution {
     public:
@@ -30,3 +30,4 @@ namespace L455_AssignCookies {
 
     };
 };
+}

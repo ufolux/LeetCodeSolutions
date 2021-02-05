@@ -5,7 +5,8 @@
 #include "PublicHeaders.h"
 #include <Solutions/BaseSolution.h>
 
-namespace L986_IntervalListIntersections {
+namespace TwoPointers {
+    namespace L986_IntervalListIntersections {
     using namespace std;
     class Solution : BaseSolution {
     public:
@@ -44,3 +45,4 @@ namespace L986_IntervalListIntersections {
         }
     };
 };
+}

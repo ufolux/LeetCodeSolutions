@@ -4,7 +4,8 @@
 #include "PublicHeaders.h"
 #include "../BaseSolution.h"
 
-namespace L11_ContainerWithMostWater {
+namespace TwoPointers {
+    namespace L11_ContainerWithMostWater {
     using namespace std;
     class Solution: BaseSolution {
     public:
@@ -29,3 +30,4 @@ namespace L11_ContainerWithMostWater {
         }
     };
 };
+}

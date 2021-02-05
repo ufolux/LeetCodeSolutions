@@ -5,7 +5,8 @@
 #include "PublicHeaders.h"
 #include <Solutions/BaseSolution.h>
 
-namespace L977_SquaresofaSortedArray {
+namespace TwoPointers {
+    namespace L977_SquaresofaSortedArray {
     using namespace std;
     class Solution : BaseSolution {
     public:
@@ -33,3 +34,4 @@ namespace L977_SquaresofaSortedArray {
         }
     };
 };
+}

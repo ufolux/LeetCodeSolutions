@@ -4,7 +4,8 @@
 #include "PublicHeaders.h"
 #include <Solutions/BaseSolution.h>
 
-namespace L992_SubarrayswithKDifferentIntegers {
+namespace TwoPointers {
+    namespace L992_SubarrayswithKDifferentIntegers {
     using namespace std;
     class Solution : BaseSolution {
     public:
@@ -42,3 +43,4 @@ namespace L992_SubarrayswithKDifferentIntegers {
         }
     };
 };
+}

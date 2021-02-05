@@ -4,8 +4,8 @@
 
 #include "PublicHeaders.h"
 #include <Solutions/BaseSolution.h>
-
-namespace L925_LongPressedName {
+namespace TwoPointers {
+    namespace L925_LongPressedName {
     using namespace std;
 
     class Solution : BaseSolution {
@@ -35,3 +35,4 @@ namespace L925_LongPressedName {
         }
     };
 };
+}

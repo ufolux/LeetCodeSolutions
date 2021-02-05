@@ -3,8 +3,8 @@
 //
 #include "PublicHeaders.h"
 #include <Solutions/BaseSolution.h>
-
-namespace L917_ReverseOnlyLetters {
+namespace TwoPointers {
+    namespace L917_ReverseOnlyLetters {
     using namespace std;
 
     class Solution : BaseSolution {
@@ -29,3 +29,4 @@ namespace L917_ReverseOnlyLetters {
         }
     };
 };
+}

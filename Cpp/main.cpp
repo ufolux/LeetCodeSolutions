@@ -7,7 +7,7 @@ using std::cout;
 using std::endl;
 
 int main() {
-    L992_SubarrayswithKDifferentIntegers::Solution s;
+    TwoPointers::L992_SubarrayswithKDifferentIntegers::Solution s;
     s.run();
     return 0;
 }

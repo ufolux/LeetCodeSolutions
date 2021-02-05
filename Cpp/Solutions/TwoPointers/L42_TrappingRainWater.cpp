@@ -4,7 +4,8 @@
 #include "PublicHeaders.h"
 #include "../BaseSolution.h"
 
-namespace L42_TrappingRainWater {
+namespace TwoPointers {
+    namespace L42_TrappingRainWater {
     using namespace std;
     class Solution: BaseSolution {
     public:
@@ -33,3 +34,4 @@ namespace L42_TrappingRainWater {
         }
     };
 };
+}

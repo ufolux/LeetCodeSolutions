@@ -6,7 +6,8 @@
 #include "PublicHeaders.h"
 #include <cctype>
 
-namespace L125_ValidPalindrome {
+namespace TwoPointers {
+    namespace L125_ValidPalindrome {
     using namespace std;
     class Solution: BaseSolution {
     public:
@@ -29,3 +30,4 @@ namespace L125_ValidPalindrome {
 
 
 };
+}
