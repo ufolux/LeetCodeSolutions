@@ -1,0 +1,2 @@
+aux_source_directory(. DIR_SEARCH_BFS_DFS_BACKTRACE_SRC)
+add_library(Search_BFS_DFS_Backtrace ${DIR_SEARCH_BFS_DFS_BACKTRACE_SRC})

@@ -15,5 +15,6 @@
 #include <queue>
 #include <algorithm>
 #include <iostream>
+#include <Utils/OutputUtils.h>
 
 #endif //CPP_PUBLICHEADERS_H
