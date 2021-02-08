@@ -5,35 +5,39 @@
 #include <Solutions/BaseSolution.h>
 
 namespace Search_BFS_DFS_Backtrace {
-    namespace L78_Subsets {
+    namespace L90_SubsetsII {
         using namespace std;
 
         class Solution : BaseSolution {
         private:
-            vector<int> paths;
-            vector<vector<int>> ans = {};
+            vector<int> path;
+            vector<vector<int>> ans;
             void dfs(vector<int>& nums, int start) {
                 int len = nums.size();
-                ans.push_back(paths);
+                ans.push_back(path);
                 for (int i = start; i < len; ++i) {
                     int n = nums[i];
-                    paths.push_back(n);
+                    if (i > start && nums[i] == nums[i - 1]) {
+                        continue;
+                    }
+                    path.push_back(n);
                     dfs(nums, i + 1);
-                    paths.pop_back();
+                    path.pop_back();
                 }
             }
-            vector<vector<int>> subsets(vector<int>& nums) {
+
+            vector<vector<int>> subsetsWithDup(vector<int>& nums) {
+                sort(nums.begin(), nums.end());
                 dfs(nums, 0);
                 return ans;
             }
         public:
             void run() override {
-                vector<int> vec = {1,2,3,4,5,6};
-                auto ans = subsets(vec);
-                for (auto& v: ans) {
+                vector<int> vec = {1,2,2};
+                auto res = subsetsWithDup(vec);
+                for (auto& v: res) {
                     OutputUtils::printVector(v);
                 }
-
             }
         };
     }
