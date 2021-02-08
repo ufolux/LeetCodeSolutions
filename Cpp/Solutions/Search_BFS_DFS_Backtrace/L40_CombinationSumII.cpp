@@ -1,11 +1,11 @@
 //
-// Created by sines on 2021/2/7 .
+// Created by sines on 2021/2/8 .
 //
 #include "PublicHeaders.h"
 #include <Solutions/BaseSolution.h>
 
 namespace Search_BFS_DFS_Backtrace {
-    namespace L39_CombinationSum {
+    namespace L40_CombinationSumII {
         using namespace std;
 
         class Solution : BaseSolution {
@@ -14,29 +14,28 @@ namespace Search_BFS_DFS_Backtrace {
                 if (target < 0) return;
                 if (target == 0) {
                     ans.push_back(tmp);
+                    return;
                 }
                 int len = candidates.size();
                 for (int i = start; i < len; ++i) {
                     int n = candidates[i];
                     tmp.push_back(n);
-                    dfs(candidates, i, target - n, tmp, ans);
+                    dfs(candidates, i + 1, target - n, tmp, ans);
                     tmp.pop_back();
                 }
             }
 
-            vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
-                if (candidates.empty()) return {};
-                sort(candidates.begin(), candidates.end());
-                vector<vector<int>> ans;
+            vector<vector<int>> combinationSum2(vector<int>& candidates, int target) {
                 vector<int> tmp;
+                vector<vector<int>> ans;
                 dfs(candidates, 0, target, tmp, ans);
                 return ans;
             }
         public:
             void run() override {
-                vector<int> vec = {2,3,6,7};
-                auto ans = combinationSum(vec, 7);
-                for (vector<int> v: ans) {
+                vector<int> vec = {10,1,2,7,6,1,5};
+                auto ans = combinationSum2(vec, 8);
+                for (auto v: ans) {
                     OutputUtils::printVector(v);
                 }
             }
