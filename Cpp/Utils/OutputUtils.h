@@ -10,7 +10,12 @@
 class OutputUtils {
 public:
     template<typename T>
-    static void printVector(std::vector<T> &vec);
+    static void printVector(std::vector<T> &vec) {
+        std::cout << "{";
+        std::copy(vec.begin(), vec.end(), std::ostream_iterator<T> (std::cout, ","));
+        std::cout << "}";
+        std::cout << std::endl;
+    }
 };
 
 

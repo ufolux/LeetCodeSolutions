@@ -13,4 +13,4 @@ include_directories(Utils)
 
 aux_source_directory(. DIR_SRC)
 add_executable(${PROJECT_NAME} ${DIR_SRC})
-target_link_libraries(${PROJECT_NAME} Solutions Utils)
+target_link_libraries(${PROJECT_NAME} Utils Solutions)

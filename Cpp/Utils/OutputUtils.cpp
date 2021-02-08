@@ -4,12 +4,3 @@
 
 #include "OutputUtils.h"
 using namespace std;
-
-template<typename T>
-void OutputUtils::printVector(vector <T> &vec) {
-    cout << "{";
-    for (T ele: vec) {
-        cout << ele << ", ";
-    }
-    cout << endl;
-}

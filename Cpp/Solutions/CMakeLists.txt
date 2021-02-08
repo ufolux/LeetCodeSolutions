@@ -11,5 +11,5 @@ include_directories(UnionFind)
 add_subdirectory(Search_BFS_DFS_Backtrace)
 include_directories(Search_BFS_DFS_Backtrace)
 
-add_library(Solutions ${DIR_SOLUTIONS_SRC})
-target_link_libraries(DP TwoPointers Array UnionFind Search_BFS_DFS_Backtrace)
+add_library(Solutions STATIC ${DIR_SOLUTIONS_SRC})
+target_link_libraries(Solutions DP TwoPointers Array UnionFind Search_BFS_DFS_Backtrace)
