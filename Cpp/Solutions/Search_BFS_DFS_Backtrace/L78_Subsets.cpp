@@ -30,10 +30,7 @@ namespace Search_BFS_DFS_Backtrace {
             void run() override {
                 vector<int> vec = {1,2,3,4,5,6};
                 auto ans = subsets(vec);
-                for (auto& v: ans) {
-                    OutputUtils::printVector(v);
-                }
-
+                OutputUtils::printMatrix(ans);
             }
         };
     }

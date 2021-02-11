@@ -33,9 +33,7 @@ namespace Search_BFS_DFS_Backtrace {
         public:
             void run() override {
                 auto ans = combine(4, 2);
-                for (auto& v: ans) {
-                    OutputUtils::printVector(v);
-                }
+                OutputUtils::printMatrix(ans);
             }
         };
     }

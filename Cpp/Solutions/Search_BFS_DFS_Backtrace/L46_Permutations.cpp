@@ -39,9 +39,7 @@ namespace Search_BFS_DFS_Backtrace {
             void run() override {
                 vector<int> vec = {1,2,3};
                 auto res = permute(vec);
-                for (auto& v: res) {
-                    OutputUtils::printVector(v);
-                }
+                OutputUtils::printMatrix(res);
             }
         };
     }

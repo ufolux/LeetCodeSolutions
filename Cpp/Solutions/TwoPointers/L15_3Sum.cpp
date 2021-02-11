@@ -40,12 +40,7 @@ namespace TwoPointers {
             void run() override {
                 vector<int> src = {0,0,0,0};
                 auto res = threeSum(src);
-                for (auto& v: res) {
-                    for (auto& e: v) {
-                        cout << e << " ";
-                    }
-                    cout << endl;
-                }
+                OutputUtils::printMatrix(res);
             }
         };
     }

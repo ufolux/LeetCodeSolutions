@@ -35,9 +35,7 @@ namespace Search_BFS_DFS_Backtrace {
             void run() override {
                 vector<int> vec = {10,1,2,7,6,1,5};
                 auto ans = combinationSum2(vec, 8);
-                for (auto v: ans) {
-                    OutputUtils::printVector(v);
-                }
+                OutputUtils::printMatrix(ans);
             }
         };
     }

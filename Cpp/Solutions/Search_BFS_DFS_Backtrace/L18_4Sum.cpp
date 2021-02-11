@@ -39,9 +39,7 @@ namespace Search_BFS_DFS_Backtrace {
             void run() override {
                 vector<int> vec = {1,0,-1,0,-2,2};
                 auto res = fourSum(vec, 0);
-                for (auto& v: res) {
-                    OutputUtils::printVector(v);
-                }
+                OutputUtils::printMatrix(res);
             }
         };
     }

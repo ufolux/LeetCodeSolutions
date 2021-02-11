@@ -31,9 +31,7 @@ namespace Search_BFS_DFS_Backtrace {
         public:
             void run() override {
                 auto res = combinationSum3(3, 7);
-                for (auto& v: res) {
-                    OutputUtils::printVector(v);
-                }
+                OutputUtils::printMatrix(res);
             }
         };
     }

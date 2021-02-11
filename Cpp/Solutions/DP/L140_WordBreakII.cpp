@@ -71,9 +71,7 @@ namespace DP {
             void run() {
                 vector<string> words = {"apple","pen","applepen","pine","pineapple"};
                 auto res = wordBreak("pineapplepenapple", words);
-                for (const auto& str: res) {
-                    cout << str << endl;
-                }
+                OutputUtils::printVector(res);
             }
         };
     }

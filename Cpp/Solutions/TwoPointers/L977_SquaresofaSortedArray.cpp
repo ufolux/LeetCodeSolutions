@@ -29,8 +29,8 @@ namespace TwoPointers {
 
         void run() override {
             vector<int> nums = {-4,-1,0,3,10};
-            for (auto n: sortedSquares(nums))
-                cout << n << " " << endl;
+            auto res = sortedSquares(nums);
+            OutputUtils::printVector(res);
         }
     };
 };

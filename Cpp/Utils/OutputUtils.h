@@ -16,6 +16,15 @@ public:
         std::cout << "}";
         std::cout << std::endl;
     }
+
+    template<typename T>
+    static void printMatrix(std::vector<std::vector<T>> &matrix) {
+        std::cout << "{\n";
+        for (std::vector<T>& row: matrix) {
+            printVector(row);
+        }
+        std::cout << "}\n";
+    }
 };
 
 
