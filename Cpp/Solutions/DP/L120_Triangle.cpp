@@ -25,7 +25,7 @@ namespace DP {
         public:
             void run() override {
                 vector<vector<int>> triangle = {{2},{3,4},{6,5,7},{4,1,8,3}};
-                minimumTotal(triangle);
+                cout << minimumTotal(triangle) << endl;
             }
         };
     }
