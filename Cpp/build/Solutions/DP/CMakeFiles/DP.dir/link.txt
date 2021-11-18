@@ -1,0 +1,2 @@
+/bin/ar qc libDP.a  CMakeFiles/DP.dir/L120_Triangle.cpp.o CMakeFiles/DP.dir/L140_WordBreakII.cpp.o CMakeFiles/DP.dir/L174_DungeonGame.cpp.o CMakeFiles/DP.dir/L53_Maximum_Subarray.cpp.o CMakeFiles/DP.dir/L931_MinimumFallingPathSum.cpp.o
+/bin/ranlib libDP.a

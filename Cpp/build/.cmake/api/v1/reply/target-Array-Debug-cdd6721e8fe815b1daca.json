@@ -1,0 +1,122 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "Solutions/Array/libArray.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"Solutions/Array/CMakeLists.txt",
+			"CMakeLists.txt",
+			"Solutions/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 2,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 7,
+				"parent" : 2
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 4,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 6,
+				"parent" : 4
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g  "
+				},
+				{
+					"fragment" : "-std=gnu++14"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "/home/sines/Code/LeetCodeSolutions/Cpp/."
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/DP"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/TwoPointers"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"id" : "Array::@83e70763bfa18ed9b573",
+	"name" : "Array",
+	"nameOnDisk" : "libArray.a",
+	"paths" : 
+	{
+		"build" : "Solutions/Array",
+		"source" : "Solutions/Array"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Solutions/Array/L54_SpiralMatrix.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

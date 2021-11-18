@@ -17,5 +17,8 @@
 #include <iostream>
 #include <set>
 #include <Utils/OutputUtils.h>
+#include <cstring>
+#include <climits>
+#include <limits>
 
 #endif //CPP_PUBLICHEADERS_H

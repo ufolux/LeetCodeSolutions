@@ -1,0 +1,2 @@
+/bin/ar qc libUnionFind.a  CMakeFiles/UnionFind.dir/L323_NumberOfConnectedComponentsInAnUndirectedGraph.cpp.o
+/bin/ranlib libUnionFind.a

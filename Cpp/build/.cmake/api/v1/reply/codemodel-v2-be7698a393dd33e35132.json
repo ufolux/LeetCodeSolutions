@@ -1,0 +1,257 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						8
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "Solutions",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Solutions",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "Solutions/DP",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "Solutions/DP",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "Solutions/TwoPointers",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "Solutions/TwoPointers",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "Solutions/Array",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "Solutions/Array",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "Solutions/UnionFind",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "Solutions/UnionFind",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "Solutions/Search_BFS_DFS_Backtrace",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "Solutions/Search_BFS_DFS_Backtrace",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "Solutions/BinarySearch",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "Solutions/BinarySearch",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "Utils",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Utils",
+					"targetIndexes" : 
+					[
+						8
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					],
+					"name" : "LeetCodeCpp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 4,
+					"id" : "Array::@83e70763bfa18ed9b573",
+					"jsonFile" : "target-Array-Debug-cdd6721e8fe815b1daca.json",
+					"name" : "Array",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "BinarySearch::@b815176b71cf9ed9e376",
+					"jsonFile" : "target-BinarySearch-Debug-16a2edde8913c77763ac.json",
+					"name" : "BinarySearch",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "DP::@8a44047de39282ee82ad",
+					"jsonFile" : "target-DP-Debug-90544590af254073280b.json",
+					"name" : "DP",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "LeetCodeCpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-LeetCodeCpp-Debug-402c80bcf0af17e479de.json",
+					"name" : "LeetCodeCpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "Search_BFS_DFS_Backtrace::@a803bc0c3a2af7b1617f",
+					"jsonFile" : "target-Search_BFS_DFS_Backtrace-Debug-6a5fd260e2bb4a85c8cc.json",
+					"name" : "Search_BFS_DFS_Backtrace",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "Solutions::@5439a195b011474811f0",
+					"jsonFile" : "target-Solutions-Debug-88c4da8443c056c2b0cf.json",
+					"name" : "Solutions",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "TwoPointers::@17ea7c1b13514a5d2671",
+					"jsonFile" : "target-TwoPointers-Debug-3b385ebdbc62a8191fbd.json",
+					"name" : "TwoPointers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "UnionFind::@24a9a51273ac5696fb26",
+					"jsonFile" : "target-UnionFind-Debug-2d993e39f160d23c5b8a.json",
+					"name" : "UnionFind",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "Utils::@63186210bb9289bb1152",
+					"jsonFile" : "target-Utils-Debug-5b4b0e5814465acca7da.json",
+					"name" : "Utils",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/sines/Code/LeetCodeSolutions/Cpp/build",
+		"source" : "/home/sines/Code/LeetCodeSolutions/Cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

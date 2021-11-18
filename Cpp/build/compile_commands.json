@@ -1,0 +1,182 @@
+[
+{
+  "directory": "/home/sines/Code/LeetCodeSolutions/Cpp/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/sines/Code/LeetCodeSolutions/Cpp/. -I/home/sines/Code/LeetCodeSolutions/Cpp/Solutions -I/home/sines/Code/LeetCodeSolutions/Cpp/Utils  -g   -std=gnu++14 -o CMakeFiles/LeetCodeCpp.dir/main.cpp.o -c /home/sines/Code/LeetCodeSolutions/Cpp/main.cpp",
+  "file": "/home/sines/Code/LeetCodeSolutions/Cpp/main.cpp"
+},
+{
+  "directory": "/home/sines/Code/LeetCodeSolutions/Cpp/build/Solutions",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/sines/Code/LeetCodeSolutions/Cpp/. -I/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/DP -I/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/TwoPointers -I/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/Array -I/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/UnionFind -I/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/Search_BFS_DFS_Backtrace -I/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/BinarySearch  -g   -std=gnu++14 -o CMakeFiles/Solutions.dir/BaseSolution.cpp.o -c /home/sines/Code/LeetCodeSolutions/Cpp/Solutions/BaseSolution.cpp",
+  "file": "/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/BaseSolution.cpp"
+},
+{
+  "directory": "/home/sines/Code/LeetCodeSolutions/Cpp/build/Solutions/DP",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/sines/Code/LeetCodeSolutions/Cpp/.  -g   -std=gnu++14 -o CMakeFiles/DP.dir/L120_Triangle.cpp.o -c /home/sines/Code/LeetCodeSolutions/Cpp/Solutions/DP/L120_Triangle.cpp",
+  "file": "/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/DP/L120_Triangle.cpp"
+},
+{
+  "directory": "/home/sines/Code/LeetCodeSolutions/Cpp/build/Solutions/DP",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/sines/Code/LeetCodeSolutions/Cpp/.  -g   -std=gnu++14 -o CMakeFiles/DP.dir/L140_WordBreakII.cpp.o -c /home/sines/Code/LeetCodeSolutions/Cpp/Solutions/DP/L140_WordBreakII.cpp",
+  "file": "/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/DP/L140_WordBreakII.cpp"
+},
+{
+  "directory": "/home/sines/Code/LeetCodeSolutions/Cpp/build/Solutions/DP",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/sines/Code/LeetCodeSolutions/Cpp/.  -g   -std=gnu++14 -o CMakeFiles/DP.dir/L174_DungeonGame.cpp.o -c /home/sines/Code/LeetCodeSolutions/Cpp/Solutions/DP/L174_DungeonGame.cpp",
+  "file": "/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/DP/L174_DungeonGame.cpp"
+},
+{
+  "directory": "/home/sines/Code/LeetCodeSolutions/Cpp/build/Solutions/DP",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/sines/Code/LeetCodeSolutions/Cpp/.  -g   -std=gnu++14 -o CMakeFiles/DP.dir/L53_Maximum_Subarray.cpp.o -c /home/sines/Code/LeetCodeSolutions/Cpp/Solutions/DP/L53_Maximum_Subarray.cpp",
+  "file": "/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/DP/L53_Maximum_Subarray.cpp"
+},
+{
+  "directory": "/home/sines/Code/LeetCodeSolutions/Cpp/build/Solutions/DP",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/sines/Code/LeetCodeSolutions/Cpp/.  -g   -std=gnu++14 -o CMakeFiles/DP.dir/L931_MinimumFallingPathSum.cpp.o -c /home/sines/Code/LeetCodeSolutions/Cpp/Solutions/DP/L931_MinimumFallingPathSum.cpp",
+  "file": "/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/DP/L931_MinimumFallingPathSum.cpp"
+},
+{
+  "directory": "/home/sines/Code/LeetCodeSolutions/Cpp/build/Solutions/TwoPointers",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/sines/Code/LeetCodeSolutions/Cpp/. -I/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/DP  -g   -std=gnu++14 -o CMakeFiles/TwoPointers.dir/L11_ContainerWithMostWater.cpp.o -c /home/sines/Code/LeetCodeSolutions/Cpp/Solutions/TwoPointers/L11_ContainerWithMostWater.cpp",
+  "file": "/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/TwoPointers/L11_ContainerWithMostWater.cpp"
+},
+{
+  "directory": "/home/sines/Code/LeetCodeSolutions/Cpp/build/Solutions/TwoPointers",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/sines/Code/LeetCodeSolutions/Cpp/. -I/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/DP  -g   -std=gnu++14 -o CMakeFiles/TwoPointers.dir/L125_ValidPalindrome.cpp.o -c /home/sines/Code/LeetCodeSolutions/Cpp/Solutions/TwoPointers/L125_ValidPalindrome.cpp",
+  "file": "/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/TwoPointers/L125_ValidPalindrome.cpp"
+},
+{
+  "directory": "/home/sines/Code/LeetCodeSolutions/Cpp/build/Solutions/TwoPointers",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/sines/Code/LeetCodeSolutions/Cpp/. -I/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/DP  -g   -std=gnu++14 -o CMakeFiles/TwoPointers.dir/L15_3Sum.cpp.o -c /home/sines/Code/LeetCodeSolutions/Cpp/Solutions/TwoPointers/L15_3Sum.cpp",
+  "file": "/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/TwoPointers/L15_3Sum.cpp"
+},
+{
+  "directory": "/home/sines/Code/LeetCodeSolutions/Cpp/build/Solutions/TwoPointers",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/sines/Code/LeetCodeSolutions/Cpp/. -I/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/DP  -g   -std=gnu++14 -o CMakeFiles/TwoPointers.dir/L16_3SumClosest.cpp.o -c /home/sines/Code/LeetCodeSolutions/Cpp/Solutions/TwoPointers/L16_3SumClosest.cpp",
+  "file": "/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/TwoPointers/L16_3SumClosest.cpp"
+},
+{
+  "directory": "/home/sines/Code/LeetCodeSolutions/Cpp/build/Solutions/TwoPointers",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/sines/Code/LeetCodeSolutions/Cpp/. -I/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/DP  -g   -std=gnu++14 -o CMakeFiles/TwoPointers.dir/L42_TrappingRainWater.cpp.o -c /home/sines/Code/LeetCodeSolutions/Cpp/Solutions/TwoPointers/L42_TrappingRainWater.cpp",
+  "file": "/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/TwoPointers/L42_TrappingRainWater.cpp"
+},
+{
+  "directory": "/home/sines/Code/LeetCodeSolutions/Cpp/build/Solutions/TwoPointers",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/sines/Code/LeetCodeSolutions/Cpp/. -I/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/DP  -g   -std=gnu++14 -o CMakeFiles/TwoPointers.dir/L455_AssignCookies.cpp.o -c /home/sines/Code/LeetCodeSolutions/Cpp/Solutions/TwoPointers/L455_AssignCookies.cpp",
+  "file": "/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/TwoPointers/L455_AssignCookies.cpp"
+},
+{
+  "directory": "/home/sines/Code/LeetCodeSolutions/Cpp/build/Solutions/TwoPointers",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/sines/Code/LeetCodeSolutions/Cpp/. -I/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/DP  -g   -std=gnu++14 -o CMakeFiles/TwoPointers.dir/L855_ExamRoom.cpp.o -c /home/sines/Code/LeetCodeSolutions/Cpp/Solutions/TwoPointers/L855_ExamRoom.cpp",
+  "file": "/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/TwoPointers/L855_ExamRoom.cpp"
+},
+{
+  "directory": "/home/sines/Code/LeetCodeSolutions/Cpp/build/Solutions/TwoPointers",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/sines/Code/LeetCodeSolutions/Cpp/. -I/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/DP  -g   -std=gnu++14 -o CMakeFiles/TwoPointers.dir/L917_ReverseOnlyLetters.cpp.o -c /home/sines/Code/LeetCodeSolutions/Cpp/Solutions/TwoPointers/L917_ReverseOnlyLetters.cpp",
+  "file": "/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/TwoPointers/L917_ReverseOnlyLetters.cpp"
+},
+{
+  "directory": "/home/sines/Code/LeetCodeSolutions/Cpp/build/Solutions/TwoPointers",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/sines/Code/LeetCodeSolutions/Cpp/. -I/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/DP  -g   -std=gnu++14 -o CMakeFiles/TwoPointers.dir/L925_LongPressedName_.cpp.o -c \"/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/TwoPointers/L925_LongPressedName .cpp\"",
+  "file": "/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/TwoPointers/L925_LongPressedName .cpp"
+},
+{
+  "directory": "/home/sines/Code/LeetCodeSolutions/Cpp/build/Solutions/TwoPointers",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/sines/Code/LeetCodeSolutions/Cpp/. -I/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/DP  -g   -std=gnu++14 -o CMakeFiles/TwoPointers.dir/L977_SquaresofaSortedArray.cpp.o -c /home/sines/Code/LeetCodeSolutions/Cpp/Solutions/TwoPointers/L977_SquaresofaSortedArray.cpp",
+  "file": "/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/TwoPointers/L977_SquaresofaSortedArray.cpp"
+},
+{
+  "directory": "/home/sines/Code/LeetCodeSolutions/Cpp/build/Solutions/TwoPointers",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/sines/Code/LeetCodeSolutions/Cpp/. -I/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/DP  -g   -std=gnu++14 -o CMakeFiles/TwoPointers.dir/L986_IntervalListIntersections.cpp.o -c /home/sines/Code/LeetCodeSolutions/Cpp/Solutions/TwoPointers/L986_IntervalListIntersections.cpp",
+  "file": "/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/TwoPointers/L986_IntervalListIntersections.cpp"
+},
+{
+  "directory": "/home/sines/Code/LeetCodeSolutions/Cpp/build/Solutions/TwoPointers",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/sines/Code/LeetCodeSolutions/Cpp/. -I/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/DP  -g   -std=gnu++14 -o CMakeFiles/TwoPointers.dir/L992_SubarrayswithKDifferentIntegers.cpp.o -c /home/sines/Code/LeetCodeSolutions/Cpp/Solutions/TwoPointers/L992_SubarrayswithKDifferentIntegers.cpp",
+  "file": "/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/TwoPointers/L992_SubarrayswithKDifferentIntegers.cpp"
+},
+{
+  "directory": "/home/sines/Code/LeetCodeSolutions/Cpp/build/Solutions/Array",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/sines/Code/LeetCodeSolutions/Cpp/. -I/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/DP -I/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/TwoPointers  -g   -std=gnu++14 -o CMakeFiles/Array.dir/L54_SpiralMatrix.cpp.o -c /home/sines/Code/LeetCodeSolutions/Cpp/Solutions/Array/L54_SpiralMatrix.cpp",
+  "file": "/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/Array/L54_SpiralMatrix.cpp"
+},
+{
+  "directory": "/home/sines/Code/LeetCodeSolutions/Cpp/build/Solutions/UnionFind",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/sines/Code/LeetCodeSolutions/Cpp/. -I/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/DP -I/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/TwoPointers -I/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/Array  -g   -std=gnu++14 -o CMakeFiles/UnionFind.dir/L323_NumberOfConnectedComponentsInAnUndirectedGraph.cpp.o -c /home/sines/Code/LeetCodeSolutions/Cpp/Solutions/UnionFind/L323_NumberOfConnectedComponentsInAnUndirectedGraph.cpp",
+  "file": "/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/UnionFind/L323_NumberOfConnectedComponentsInAnUndirectedGraph.cpp"
+},
+{
+  "directory": "/home/sines/Code/LeetCodeSolutions/Cpp/build/Solutions/Search_BFS_DFS_Backtrace",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/sines/Code/LeetCodeSolutions/Cpp/. -I/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/DP -I/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/TwoPointers -I/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/Array -I/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/UnionFind  -g   -std=gnu++14 -o CMakeFiles/Search_BFS_DFS_Backtrace.dir/L130_SurroundedRegions.cpp.o -c /home/sines/Code/LeetCodeSolutions/Cpp/Solutions/Search_BFS_DFS_Backtrace/L130_SurroundedRegions.cpp",
+  "file": "/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/Search_BFS_DFS_Backtrace/L130_SurroundedRegions.cpp"
+},
+{
+  "directory": "/home/sines/Code/LeetCodeSolutions/Cpp/build/Solutions/Search_BFS_DFS_Backtrace",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/sines/Code/LeetCodeSolutions/Cpp/. -I/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/DP -I/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/TwoPointers -I/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/Array -I/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/UnionFind  -g   -std=gnu++14 -o CMakeFiles/Search_BFS_DFS_Backtrace.dir/L17_LetterCombinationsofAPhoneNumber.cpp.o -c /home/sines/Code/LeetCodeSolutions/Cpp/Solutions/Search_BFS_DFS_Backtrace/L17_LetterCombinationsofAPhoneNumber.cpp",
+  "file": "/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/Search_BFS_DFS_Backtrace/L17_LetterCombinationsofAPhoneNumber.cpp"
+},
+{
+  "directory": "/home/sines/Code/LeetCodeSolutions/Cpp/build/Solutions/Search_BFS_DFS_Backtrace",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/sines/Code/LeetCodeSolutions/Cpp/. -I/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/DP -I/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/TwoPointers -I/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/Array -I/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/UnionFind  -g   -std=gnu++14 -o CMakeFiles/Search_BFS_DFS_Backtrace.dir/L18_4Sum.cpp.o -c /home/sines/Code/LeetCodeSolutions/Cpp/Solutions/Search_BFS_DFS_Backtrace/L18_4Sum.cpp",
+  "file": "/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/Search_BFS_DFS_Backtrace/L18_4Sum.cpp"
+},
+{
+  "directory": "/home/sines/Code/LeetCodeSolutions/Cpp/build/Solutions/Search_BFS_DFS_Backtrace",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/sines/Code/LeetCodeSolutions/Cpp/. -I/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/DP -I/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/TwoPointers -I/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/Array -I/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/UnionFind  -g   -std=gnu++14 -o CMakeFiles/Search_BFS_DFS_Backtrace.dir/L216_CombinationSumIII.cpp.o -c /home/sines/Code/LeetCodeSolutions/Cpp/Solutions/Search_BFS_DFS_Backtrace/L216_CombinationSumIII.cpp",
+  "file": "/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/Search_BFS_DFS_Backtrace/L216_CombinationSumIII.cpp"
+},
+{
+  "directory": "/home/sines/Code/LeetCodeSolutions/Cpp/build/Solutions/Search_BFS_DFS_Backtrace",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/sines/Code/LeetCodeSolutions/Cpp/. -I/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/DP -I/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/TwoPointers -I/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/Array -I/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/UnionFind  -g   -std=gnu++14 -o CMakeFiles/Search_BFS_DFS_Backtrace.dir/L39_CombinationSum.cpp.o -c /home/sines/Code/LeetCodeSolutions/Cpp/Solutions/Search_BFS_DFS_Backtrace/L39_CombinationSum.cpp",
+  "file": "/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/Search_BFS_DFS_Backtrace/L39_CombinationSum.cpp"
+},
+{
+  "directory": "/home/sines/Code/LeetCodeSolutions/Cpp/build/Solutions/Search_BFS_DFS_Backtrace",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/sines/Code/LeetCodeSolutions/Cpp/. -I/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/DP -I/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/TwoPointers -I/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/Array -I/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/UnionFind  -g   -std=gnu++14 -o CMakeFiles/Search_BFS_DFS_Backtrace.dir/L40_CombinationSumII.cpp.o -c /home/sines/Code/LeetCodeSolutions/Cpp/Solutions/Search_BFS_DFS_Backtrace/L40_CombinationSumII.cpp",
+  "file": "/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/Search_BFS_DFS_Backtrace/L40_CombinationSumII.cpp"
+},
+{
+  "directory": "/home/sines/Code/LeetCodeSolutions/Cpp/build/Solutions/Search_BFS_DFS_Backtrace",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/sines/Code/LeetCodeSolutions/Cpp/. -I/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/DP -I/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/TwoPointers -I/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/Array -I/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/UnionFind  -g   -std=gnu++14 -o CMakeFiles/Search_BFS_DFS_Backtrace.dir/L46_Permutations.cpp.o -c /home/sines/Code/LeetCodeSolutions/Cpp/Solutions/Search_BFS_DFS_Backtrace/L46_Permutations.cpp",
+  "file": "/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/Search_BFS_DFS_Backtrace/L46_Permutations.cpp"
+},
+{
+  "directory": "/home/sines/Code/LeetCodeSolutions/Cpp/build/Solutions/Search_BFS_DFS_Backtrace",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/sines/Code/LeetCodeSolutions/Cpp/. -I/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/DP -I/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/TwoPointers -I/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/Array -I/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/UnionFind  -g   -std=gnu++14 -o CMakeFiles/Search_BFS_DFS_Backtrace.dir/L47_PermutationsII.cpp.o -c /home/sines/Code/LeetCodeSolutions/Cpp/Solutions/Search_BFS_DFS_Backtrace/L47_PermutationsII.cpp",
+  "file": "/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/Search_BFS_DFS_Backtrace/L47_PermutationsII.cpp"
+},
+{
+  "directory": "/home/sines/Code/LeetCodeSolutions/Cpp/build/Solutions/Search_BFS_DFS_Backtrace",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/sines/Code/LeetCodeSolutions/Cpp/. -I/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/DP -I/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/TwoPointers -I/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/Array -I/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/UnionFind  -g   -std=gnu++14 -o CMakeFiles/Search_BFS_DFS_Backtrace.dir/L77_Combinations.cpp.o -c /home/sines/Code/LeetCodeSolutions/Cpp/Solutions/Search_BFS_DFS_Backtrace/L77_Combinations.cpp",
+  "file": "/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/Search_BFS_DFS_Backtrace/L77_Combinations.cpp"
+},
+{
+  "directory": "/home/sines/Code/LeetCodeSolutions/Cpp/build/Solutions/Search_BFS_DFS_Backtrace",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/sines/Code/LeetCodeSolutions/Cpp/. -I/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/DP -I/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/TwoPointers -I/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/Array -I/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/UnionFind  -g   -std=gnu++14 -o CMakeFiles/Search_BFS_DFS_Backtrace.dir/L784_LetterCasePermutation.cpp.o -c /home/sines/Code/LeetCodeSolutions/Cpp/Solutions/Search_BFS_DFS_Backtrace/L784_LetterCasePermutation.cpp",
+  "file": "/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/Search_BFS_DFS_Backtrace/L784_LetterCasePermutation.cpp"
+},
+{
+  "directory": "/home/sines/Code/LeetCodeSolutions/Cpp/build/Solutions/Search_BFS_DFS_Backtrace",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/sines/Code/LeetCodeSolutions/Cpp/. -I/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/DP -I/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/TwoPointers -I/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/Array -I/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/UnionFind  -g   -std=gnu++14 -o CMakeFiles/Search_BFS_DFS_Backtrace.dir/L78_Subsets.cpp.o -c /home/sines/Code/LeetCodeSolutions/Cpp/Solutions/Search_BFS_DFS_Backtrace/L78_Subsets.cpp",
+  "file": "/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/Search_BFS_DFS_Backtrace/L78_Subsets.cpp"
+},
+{
+  "directory": "/home/sines/Code/LeetCodeSolutions/Cpp/build/Solutions/Search_BFS_DFS_Backtrace",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/sines/Code/LeetCodeSolutions/Cpp/. -I/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/DP -I/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/TwoPointers -I/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/Array -I/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/UnionFind  -g   -std=gnu++14 -o CMakeFiles/Search_BFS_DFS_Backtrace.dir/L90_SubsetsII.cpp.o -c /home/sines/Code/LeetCodeSolutions/Cpp/Solutions/Search_BFS_DFS_Backtrace/L90_SubsetsII.cpp",
+  "file": "/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/Search_BFS_DFS_Backtrace/L90_SubsetsII.cpp"
+},
+{
+  "directory": "/home/sines/Code/LeetCodeSolutions/Cpp/build/Solutions/Search_BFS_DFS_Backtrace",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/sines/Code/LeetCodeSolutions/Cpp/. -I/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/DP -I/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/TwoPointers -I/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/Array -I/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/UnionFind  -g   -std=gnu++14 -o CMakeFiles/Search_BFS_DFS_Backtrace.dir/L931_MinimumFallingPathSum.cpp.o -c /home/sines/Code/LeetCodeSolutions/Cpp/Solutions/Search_BFS_DFS_Backtrace/L931_MinimumFallingPathSum.cpp",
+  "file": "/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/Search_BFS_DFS_Backtrace/L931_MinimumFallingPathSum.cpp"
+},
+{
+  "directory": "/home/sines/Code/LeetCodeSolutions/Cpp/build/Solutions/BinarySearch",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/sines/Code/LeetCodeSolutions/Cpp/. -I/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/DP -I/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/TwoPointers -I/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/Array -I/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/UnionFind -I/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/Search_BFS_DFS_Backtrace  -g   -std=gnu++14 -o CMakeFiles/BinarySearch.dir/L34_FindFirstandLastPositionofElementinSortedArray.cpp.o -c /home/sines/Code/LeetCodeSolutions/Cpp/Solutions/BinarySearch/L34_FindFirstandLastPositionofElementinSortedArray.cpp",
+  "file": "/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/BinarySearch/L34_FindFirstandLastPositionofElementinSortedArray.cpp"
+},
+{
+  "directory": "/home/sines/Code/LeetCodeSolutions/Cpp/build/Utils",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/sines/Code/LeetCodeSolutions/Cpp/. -I/home/sines/Code/LeetCodeSolutions/Cpp/Solutions  -g   -std=gnu++14 -o CMakeFiles/Utils.dir/OutputUtils.cpp.o -c /home/sines/Code/LeetCodeSolutions/Cpp/Utils/OutputUtils.cpp",
+  "file": "/home/sines/Code/LeetCodeSolutions/Cpp/Utils/OutputUtils.cpp"
+}
+]

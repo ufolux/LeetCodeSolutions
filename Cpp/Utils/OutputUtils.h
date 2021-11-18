@@ -6,6 +6,7 @@
 #define LEETCODECPP_OUTPUTUTILS_H
 
 #include "PublicHeaders.h"
+#include <iterator>
 
 class OutputUtils {
 public:

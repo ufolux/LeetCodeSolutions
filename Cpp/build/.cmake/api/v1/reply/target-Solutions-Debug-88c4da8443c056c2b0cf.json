@@ -1,0 +1,192 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "Solutions/libSolutions.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"Solutions/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 17,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 7,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 4,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 6,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 12,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 14,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g  "
+				},
+				{
+					"fragment" : "-std=gnu++14"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "/home/sines/Code/LeetCodeSolutions/Cpp/."
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/DP"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/TwoPointers"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/Array"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/UnionFind"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/Search_BFS_DFS_Backtrace"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/home/sines/Code/LeetCodeSolutions/Cpp/Solutions/BinarySearch"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "DP::@8a44047de39282ee82ad"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "TwoPointers::@17ea7c1b13514a5d2671"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Array::@83e70763bfa18ed9b573"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "UnionFind::@24a9a51273ac5696fb26"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Search_BFS_DFS_Backtrace::@a803bc0c3a2af7b1617f"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "BinarySearch::@b815176b71cf9ed9e376"
+		}
+	],
+	"id" : "Solutions::@5439a195b011474811f0",
+	"name" : "Solutions",
+	"nameOnDisk" : "libSolutions.a",
+	"paths" : 
+	{
+		"build" : "Solutions",
+		"source" : "Solutions"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Solutions/BaseSolution.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

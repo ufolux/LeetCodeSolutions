@@ -1,0 +1,2 @@
+/bin/ar qc libBinarySearch.a  CMakeFiles/BinarySearch.dir/L34_FindFirstandLastPositionofElementinSortedArray.cpp.o
+/bin/ranlib libBinarySearch.a

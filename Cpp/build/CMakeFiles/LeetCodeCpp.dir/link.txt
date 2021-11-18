@@ -1,0 +1,1 @@
+/bin/x86_64-linux-gnu-g++-9  -g   CMakeFiles/LeetCodeCpp.dir/main.cpp.o  -o LeetCodeCpp  Utils/libUtils.a Solutions/libSolutions.a Solutions/DP/libDP.a Solutions/TwoPointers/libTwoPointers.a Solutions/Array/libArray.a Solutions/UnionFind/libUnionFind.a Solutions/Search_BFS_DFS_Backtrace/libSearch_BFS_DFS_Backtrace.a Solutions/BinarySearch/libBinarySearch.a 

@@ -1,0 +1,2 @@
+/bin/ar qc libArray.a  CMakeFiles/Array.dir/L54_SpiralMatrix.cpp.o
+/bin/ranlib libArray.a
