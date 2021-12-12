@@ -2,12 +2,6 @@ package BasicAlgos.datastructure;
 import java.util.Arrays;
 import java.util.LinkedList;
 
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-}
-
 enum Order {
     PRE,
     IN,
