@@ -4,8 +4,6 @@ import BasicAlgos.datastructure.TreeNode;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
-import java.util.List;
-import java.util.Stack;
 
 public class Solution {
     void swap(TreeNode node1, TreeNode node2) {
