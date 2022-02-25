@@ -12,6 +12,8 @@ add_subdirectory(Search_BFS_DFS_Backtrace)
 include_directories(Search_BFS_DFS_Backtrace)
 add_subdirectory(BinarySearch)
 include_directories(BinarySearch)
+add_subdirectory(String)
+include_directories(String)
 
 add_library(Solutions STATIC ${DIR_SOLUTIONS_SRC})
 target_link_libraries(Solutions DP TwoPointers Array UnionFind Search_BFS_DFS_Backtrace BinarySearch)

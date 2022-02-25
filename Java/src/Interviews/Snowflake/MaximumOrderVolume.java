@@ -24,7 +24,7 @@ public class MaximumOrderVolume {
             // keep popping while the heap is not empty and
             // jobs are not conflicting
             // update the value of maxProfit
-            while (pq.isEmpty() == false && start >= pq.peek().get(0)) {
+            while (pq.isEmpty() == false && start > pq.peek().get(0)) {
                 maxProfit = Math.max(maxProfit, pq.peek().get(1));
                 pq.remove();
             }
@@ -57,7 +57,7 @@ public class MaximumOrderVolume {
         for (int i = 0; i < length; i++) {
             ArrayList<Integer> currJob = new ArrayList<>();
             currJob.add(startTime[i]);
-            currJob.add(endTime[i]);
+            currJob.add(startTime[i] + endTime[i]);
             currJob.add(profit[i]);
 
             jobs.add(currJob);
@@ -69,9 +69,9 @@ public class MaximumOrderVolume {
 
     public static void main(String[] args) {
         MaximumOrderVolume solution = new MaximumOrderVolume();
-        int[] startTime = {1, 2, 3, 4, 6};
-        int[] endTime = {3, 5, 10, 6, 9};
-        int[] profit = {20, 20, 100, 70, 60};
+        int[] startTime = {1, 2, 4};
+        int[] endTime = {2, 2, 1};
+        int[] profit = {1, 2, 3};
         System.out.println(solution.jobScheduling(startTime, endTime, profit));
     }
 }

@@ -3,6 +3,7 @@ cmake_minimum_required(VERSION 3.16.0)
 project(LeetCodeCpp)
 
 set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_OSX_SYSROOT /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk)
 
 include_directories(./)
 add_subdirectory(Solutions)

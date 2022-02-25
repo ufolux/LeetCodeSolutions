@@ -1,5 +1,5 @@
 #include "PublicHeaders.h"
-#include "Solutions/DP/L53_Maximum_Subarray.cpp"
+#include "String/L249_GroupShiftedStrings.cpp"
 
 using std::string;
 using std::vector;
@@ -7,7 +7,7 @@ using std::cout;
 using std::endl;
 
 int main() {
-    DP::L53_Maximum_Subarray::Solution s;
+    String::L249_GroupShiftedStrings::Solution s;
     s.run();
     return 0;
 }

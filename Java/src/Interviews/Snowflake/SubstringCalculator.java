@@ -1,53 +1,48 @@
 package Interviews.Snowflake;
 
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
+
 public class SubstringCalculator {
     static class TrieNode{
         TrieNode children[];
-        boolean isEnd;
+//        boolean isEnd;
 
         TrieNode(){
             this.children = new TrieNode[26];
-            this.isEnd = false;
+//            this.isEnd = false;
         }
+    }
+
+    public static Set<String> seen = new HashSet();
+
+    public static int backtrack(String s, int cnt){
+        if(seen.contains(s) || s.length() == 0)
+            return 0;
+
+        if(!seen.contains(s))
+            seen.add(s.toString());
+
+        if(s.length() == 1)
+            return 1;
+
+        return (1 + backtrack(s.substring(0, s.length()-1), cnt)    +
+                backtrack(s.substring(1, s.length()), cnt))     +
+                backtrack(s.substring(1, s.length()-1), cnt);
+
     }
 
     static TrieNode root = new TrieNode();
 
-    static void insert(String str){
-        TrieNode cur = root;
-        for(char ch : str.toCharArray()){
-            int idx = ch - 'a';
-
-            if(cur.children[idx] == null)
-                cur.children[idx] = new TrieNode();
-
-            cur = cur.children[idx];
-        }
-        cur.isEnd = true;
+    public static int distinctSubstringCount(String str){
+        //will hold the count of unique substrings
+        return backtrack(str, 0);
     }
 
-    public int calculate(String str) {
-        int cnt = 0;
-        for (int i = 0; i <= str.length(); i++){
-            //start from root of trie each time as new starting point
-            TrieNode temp = root;
-            for (int j = i; j < str.length(); j++){
-                char ch = str.charAt(j);
-                //when char not present add it to the trie
-                if(temp.children[ch - 'a'] == null){
-                    temp.children[ch - 'a'] = new TrieNode();
-                    temp.isEnd = true;
-                    cnt++;
-                }
-                //move on to the next char
-                temp = temp.children[ch - 'a'];
-            }
-        }
-        return cnt;
-    }
-
-    public static void main(String[] args) {
-        SubstringCalculator sc = new SubstringCalculator();
-        sc.calculate("abcde");
+    public static void main (String[] args) {
+        int cnt = distinctSubstringCount("kincenvizh");
+        System.out.println("Count of distinct substrings - " + cnt);
     }
 }
